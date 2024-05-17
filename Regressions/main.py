@@ -135,7 +135,7 @@ print("MSE: ", mean_squared_error(y_test, y_pred))
 
 # Linear Regression for Salary Prediction
 # Load the dataset
-df = pd.read_csv("D:\\6. semester\\yapay zeka\\2\\linear_regression_dataset.csv", sep=";")
+df = pd.read_csv("linear_regression_dataset.csv", sep=";")
 
 # Reshape the data
 x = df.deneyim.values.reshape(-1, 1)
@@ -153,7 +153,7 @@ print("Predicted salary for 13 years of experience: ", predicted_salary)
 
 # Linear Regression for Sales Prediction
 # Load the dataset
-veriler = pd.read_csv("D:\\6. semester\\yapay zeka\\2\\satislar.csv")
+veriler = pd.read_csv("satislar.csv")
 
 # Define the independent and dependent variables
 x = veriler[['Aylar']]
